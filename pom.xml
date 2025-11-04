@@ -11,6 +11,7 @@
 	<groupId>com.webdev.core</groupId>
 	<artifactId>Core</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>Core</name>
 	<description>Order Service For e-commerce project </description>
 	<url/>
@@ -51,6 +52,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+				<skip>true</skip>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
